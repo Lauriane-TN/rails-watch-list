@@ -1,0 +1,6 @@
+<h1>Add List</h1>
+<%= simple_form_for(@list) do |f| %>
+  <%= f.input :name %>
+  <%= f.submit class: 'btn btn-flat' %>
+<% end %>
+<%= link_to 'Back to lists', lists_path %>
