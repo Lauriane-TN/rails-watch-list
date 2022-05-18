@@ -48,9 +48,9 @@ gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 
 # Gemfile
-gem 'autoprefixer-rails', '10.2.5'
-gem 'font-awesome-sass', '~> 5.12.0'
-gem 'simple_form'
+gem "autoprefixer-rails", "10.2.5"
+gem "font-awesome-sass", "~> 5.15"
+gem "simple_form", github: "heartcombo/simple_form"
 
 gem 'dotenv-rails', groups: [:development, :test]
 
